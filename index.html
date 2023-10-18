@@ -15,15 +15,15 @@
   </head>
   <body>
     <header id="header">
-      <nav class="container1 flex">
+      <nav class="flex">
         <div class="logo flex">
-          <a href="#heroSectoion"
+          <a href="#main"
             ><h1 class="logo-text"><span>Aman</span> Kumar</h1></a
           >
         </div>
         <div class="navlist flex">
           <ul class="flex">
-            <li><a href="#main" class="liactive">Home</a></li>
+            <li><a href="#main">Home</a></li>
             <li><a href="#aboutSection">About</a></li>
             <li><a href="#skillSection">Skills</a></li>
             <li><a href="#projectSection">Projects</a></li>
@@ -43,11 +43,11 @@
             <span class="ball"></span>
           </label>
         </div>
-        <div class="hamburger"></div>
+        <div class="hamburger" onclick="hamburgerAnimation()"></div>
       </nav>
     </header>
 
-    <main id="main flex">
+    <main id="main" class="flex">
       <section class="biosec container flex">
         <div class="bio">
           <h4>Hello Everyone!</h4>
@@ -172,6 +172,128 @@
         </div>
       </div>
     </section>
+
+    <section id="projectSection" class="container flexBox">
+      <div class="heading-project">
+        <h1><span>P</span>rojects</h1>
+      </div>
+      <div class="projects flex">
+        <div class="project">
+          <div class="thumbnail"></div>
+          <h1 class="projectName">Neo Button</h1>
+          <p class="projectDesc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odit
+            sed praesentium, excepturi voluptatum rem voluptatem dolor
+            necessitatibus magnam blanditiis natus hic voluptas doloremque
+            adipisci illum obcaecati voluptate, corporis, in deserunt odio?
+          </p>
+          <div class="btns">
+            <button><a href="">Visit</a></button>
+            <button><a href="">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="thumbnail"></div>
+          <h1 class="projectName">Neo Button</h1>
+          <p class="projectDesc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odit
+            sed praesentium, excepturi voluptatum rem voluptatem dolor
+            necessitatibus magnam blanditiis natus hic voluptas doloremque
+            adipisci illum obcaecati voluptate, corporis, in deserunt odio?
+          </p>
+          <div class="btns">
+            <button><a href="">Visit</a></button>
+            <button><a href="">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="thumbnail"></div>
+          <h1 class="projectName">Neo Button</h1>
+          <p class="projectDesc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odit
+            sed praesentium, excepturi voluptatum rem voluptatem dolor
+            necessitatibus magnam blanditiis natus hic voluptas doloremque
+            adipisci illum obcaecati voluptate, corporis, in deserunt odio?
+          </p>
+          <div class="btns">
+            <button><a href="">Visit</a></button>
+            <button><a href="">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="thumbnail"></div>
+          <h1 class="projectName">Neo Button</h1>
+          <p class="projectDesc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odit
+            sed praesentium, excepturi voluptatum rem voluptatem dolor
+            necessitatibus magnam blanditiis natus hic voluptas doloremque
+            adipisci illum obcaecati voluptate, corporis, in deserunt odio?
+          </p>
+          <div class="btns">
+            <button><a href="">Visit</a></button>
+            <button><a href="">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="thumbnail"></div>
+          <h1 class="projectName">Neo Button</h1>
+          <p class="projectDesc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odit
+            sed praesentium, excepturi voluptatum rem voluptatem dolor
+            necessitatibus magnam blanditiis natus hic voluptas doloremque
+            adipisci illum obcaecati voluptate, corporis, in deserunt odio?
+          </p>
+          <div class="btns">
+            <button><a href="">Visit</a></button>
+            <button><a href="">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="thumbnail"></div>
+          <h1 class="projectName">Neo Button</h1>
+          <p class="projectDesc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit odit
+            sed praesentium, excepturi voluptatum rem voluptatem dolor
+            necessitatibus magnam blanditiis natus hic voluptas doloremque
+            adipisci illum obcaecati voluptate, corporis, in deserunt odio?
+          </p>
+          <div class="btns">
+            <button><a href="">Visit</a></button>
+            <button><a href="">GitHub</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactSection" class="container flexBox">
+      <div class="heading">
+        <h1><span>C</span>ontact Me</h1>
+      </div>
+      <form action="" class="flex" id="contact_form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input
+          type="number"
+          name="number"
+          placeholder="Your Phone Number"
+          required
+        />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <div class="btns flexBox Submit">
+          <button type="submit"><a href="">Send</a></button>
+        </div>
+      </form>
+    </section>
+
+    <footer id="footer">
+      <p>&copy;Aman kumar || All Right Reserved</p>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
